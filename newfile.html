@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .contact1 form{
+    max-width: 50rem;
+    margin:1rem auto;
+    text-align: center;
+}
+
+.contact1 form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact1 form .inputBox input,
+.contact1 form textarea{
+    width: 100%;
+    background:#333;
+    border-radius: .5rem;
+    padding:1rem;
+    margin:.7rem 0;
+    font-size: 1.5rem;
+    color:#fff;
+    text-transform: none;
+}
+
+.contact1 form .inputBox input::placeholder,
+.contact1 form textarea::placeholder{
+    color:#eee;
+    text-transform: capitalize;
+}
+
+.contact1 form .inputBox input:focus,
+.contact1 form textarea:focus{
+    background:#444;
+}
+
+.contact1 form .inputBox input{
+    width: 36%;
+}
+
+.contact1 form textarea{
+    resize: none;
+}
+body{
+    background-image:url("beautiful-color-ui-gradients-backgrounds-endless-river.png");
+    background-size: cover;
+}
+    </style>
+<head>
+<body>
+
+<section class="contact1" id="contact1">
+
+        <h1 class="heading"> <span><h1>Event Details</h1></span></h1>
+    
+        <form action="">
+            <div class="inputBox">
+                <input type="date" placeholder="Starting Date">
+                <input type="date" placeholder="Ending date">
+                <input type="number" placeholder="Number Of Guests">
+                <input type="number" placeholder="Payment">
+                <textarea name="" placeholder="Additional Message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+        </form>
+    
+    </section>
+</head>
+</body>
+</html>
